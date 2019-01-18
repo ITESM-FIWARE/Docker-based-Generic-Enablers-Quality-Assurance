@@ -1,1 +1,70 @@
-# Docker-based-Generic-Enablers-Quality-Assurance
+# DockerQA: Docker-based Generic Enablers Quality Assurance Generic Enablers of FIWARE
+This document describes the DockerQA service developed at ITESM as a tool for verifying the correct deployment of the Dockers of the Generic Enablers of the FIWARE catalogue.
+
+[FIWARE](https://www.fiware.org/) is a curated framework of open source platform components to accelerate the development of Smart solutions. The [FIWARE platform](https://www.fiware.org/developers/catalogue/) provides a rather simple yet powerful set of APIs (Application Programming Interfaces) that ease the development of Smart Applications in multiple vertical sectors. 
+
+The main and only mandatory component of any "Powered by FIWARE" platform or solution is the [FIWARE Orion Context Broker Generic Enabler](https://fiware-orion.readthedocs.io/en/master/), which brings a cornerstone function in any smart solution: the need to manage context information in a highly decentralized and large-scale manner, enabling to perform updates and bring access to context.
+
+## Prerequisites
+A computer or smart-device with a web browser and access to the Internet.
+
+## How to use
+Access the service via the [DockerQA official website](http://148.241.3.246:3800/)
+
+## A walkthrough
+### Test one Generic Enabler
+1. In the main page of the service, select the Aeron Generic Enabler
+![1](https://user-images.githubusercontent.com/39604832/51412805-7fec0600-1b32-11e9-9acb-5176dbb94b65.PNG)
+![2](https://user-images.githubusercontent.com/39604832/51412806-7fec0600-1b32-11e9-868c-d2d9515c8cbb.PNG)
+1. Press the "Test the selected GE" button at the left-top side of the page
+![3](https://user-images.githubusercontent.com/39604832/51412807-7fec0600-1b32-11e9-81dd-4880507c1548.PNG)
+1. The test process of the Generic Enabler may take several minutes
+![4](https://user-images.githubusercontent.com/39604832/51412808-80849c80-1b32-11e9-925b-aa818cc9b33f.PNG)
+1. Once the test process finish, a report of the test, in JSON format, is deployed in a new window
+![5](https://user-images.githubusercontent.com/39604832/51412809-80849c80-1b32-11e9-805a-ab82a804e98f.PNG)
+1. If the user presses the blue button at the top of the page, in the report window, the same report is displayed in a "pretty" presentation
+![6](https://user-images.githubusercontent.com/39604832/51412810-80849c80-1b32-11e9-9bd4-03870fa26a5d.PNG)
+1. Both reports can be downloaded by pressing the green button at the right-top side of the page
+![7](https://user-images.githubusercontent.com/39604832/51412811-80849c80-1b32-11e9-84a5-48416515504e.PNG)
+
+### Test two or more Generic Enablers
+1. In the main page of the service, select the Keyrock Generic Enabler and the Orion Context Broker Generic Enabler
+![1](https://user-images.githubusercontent.com/39604832/51412805-7fec0600-1b32-11e9-9acb-5176dbb94b65.PNG)
+![8](https://user-images.githubusercontent.com/39604832/51412812-80849c80-1b32-11e9-8ca7-81c4a997c164.PNG)
+1. Press the "Test the selected GE" button at the left-top side of the page
+![9](https://user-images.githubusercontent.com/39604832/51412814-80849c80-1b32-11e9-952c-75aa35179e18.PNG)
+1. The test processes of the Generic Enablers may take several minutes
+![10](https://user-images.githubusercontent.com/39604832/51412815-811d3300-1b32-11e9-9570-9e29a22c4087.PNG)
+![11](https://user-images.githubusercontent.com/39604832/51412816-811d3300-1b32-11e9-803d-528864406130.PNG)
+1. Once the test processes finish, a report of each test, in JSON format, is deployed in a new window. The navigation through diverse reports is available via the "hands" buttons
+![12](https://user-images.githubusercontent.com/39604832/51412817-811d3300-1b32-11e9-8fb6-fc9f79e6eb9a.PNG)
+![13](https://user-images.githubusercontent.com/39604832/51412818-811d3300-1b32-11e9-8a46-551c4fccff6a.PNG)
+1. If the user presses the blue button at the top of the page, in the report window, the same report is displayed in a "pretty" presentation
+1. Both reports can be downloaded by pressing the green button at the right-top side of the page
+
+### Test all Generic Enablers
+1. In the main page of the service, select all available Generic Enablers or press the "Test All Generic Enablers" button at the left-top side of the page
+![1](https://user-images.githubusercontent.com/39604832/51412805-7fec0600-1b32-11e9-9acb-5176dbb94b65.PNG)
+![14](https://user-images.githubusercontent.com/39604832/51412820-811d3300-1b32-11e9-9a82-b9de24b85a7d.PNG)
+![15](https://user-images.githubusercontent.com/39604832/51412821-811d3300-1b32-11e9-8908-8a5a4ac6afd3.PNG)
+![16](https://user-images.githubusercontent.com/39604832/51412822-811d3300-1b32-11e9-9634-be1a54e7f59e.PNG)
+1. The test processes of all Generic Enablers may take several minutes
+1. Once the test processes finish, a report of each test, in JSON format, is deployed in a new window
+1. If the user presses the blue button at the top of the page, in the report window, the same report is displayed in a "pretty" presentation
+1. Both reports can be downloaded by pressing the green button at the right-top side of the page
+
+### Visualize the general reports of all Generic Enablers
+1. In the main page of the service, select the option "General Reports" in the "Menu bar" located at the left side of the page
+![1](https://user-images.githubusercontent.com/39604832/51412805-7fec0600-1b32-11e9-9acb-5176dbb94b65.PNG)
+![17](https://user-images.githubusercontent.com/39604832/51412823-81b5c980-1b32-11e9-82a5-f73e9e10c708.PNG)
+1. A window with all reports of all tested Generic Enablers will be displayed
+![18](https://user-images.githubusercontent.com/39604832/51412824-81b5c980-1b32-11e9-9686-dbc85f8cbffe.PNG)
+
+### Visualize specifics reports of a selected Generic Enabler
+1. In the main page of the service, select the option "Specific Report" in the "Menu bar" located at the left side of the page
+![1](https://user-images.githubusercontent.com/39604832/51412805-7fec0600-1b32-11e9-9acb-5176dbb94b65.PNG)
+![19](https://user-images.githubusercontent.com/39604832/51412825-81b5c980-1b32-11e9-9297-0048326afecb.PNG)
+1. Select the Geoserver Generic Enabler
+![20](https://user-images.githubusercontent.com/39604832/51412826-81b5c980-1b32-11e9-8273-c8bb33d8c807.PNG)
+1. A window with all reports of the selected Generic Enabler will be displayed
+![21](https://user-images.githubusercontent.com/39604832/51412827-81b5c980-1b32-11e9-8169-d1f11c310711.PNG)
