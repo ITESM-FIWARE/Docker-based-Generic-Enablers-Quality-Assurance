@@ -1,9 +1,23 @@
 # DockerQA: Docker-based Generic Enablers Quality Assurance Generic Enablers of FIWARE
-This document describes the DockerQA service developed at ITESM as a tool for verifying the correct deployment of the Dockers of the Generic Enablers of the FIWARE catalogue.
+This document describes the DockerQA service developed at ITESM as a tool for verifying the correct deployment of the Docker-based Generic Enablers from the [FIWARE catalogue](https://www.fiware.org/developers/catalogue/).
 
 [FIWARE](https://www.fiware.org/) is a curated framework of open source platform components to accelerate the development of Smart solutions. The [FIWARE platform](https://www.fiware.org/developers/catalogue/) provides a rather simple yet powerful set of APIs (Application Programming Interfaces) that ease the development of Smart Applications in multiple vertical sectors. 
 
 The main and only mandatory component of any "Powered by FIWARE" platform or solution is the [FIWARE Orion Context Broker Generic Enabler](https://fiware-orion.readthedocs.io/en/master/), which brings a cornerstone function in any smart solution: the need to manage context information in a highly decentralized and large-scale manner, enabling to perform updates and bring access to context.
+
+The Context Broker in turn is surrounded by a suite of additional platform components (called [Generic Enablers](https://catalogue-server.fiware.org/enablers)), which may be supplying context data (from diverse sources such as a CRM system, social networks, mobile apps or IoT sensors for example), supporting processing, analysis and visualization of data or bringing support to data access control, publication or monetization.
+
+The Generic Enablers integrated into the DockerQA service are:
+1. [Orion Context Broker](https://fiware-orion.readthedocs.io/en/master/)
+1. [Application Mashup - Wirecloud](https://wirecloud.readthedocs.io/en/stable/)
+1. [Data Visualization - Knowage](https://knowage.readthedocs.io/en/latest/)
+1. [Stream Oriented - Kurento](https://kurento.readthedocs.io/en/stable/)
+1. [Identity Management - KeyRock](https://fiware-idm.readthedocs.io/en/latest/)
+1. [PEP Proxy - Wilma](https://fiware-pep-proxy.readthedocs.io/en/latest/)
+1. [Authorization PDP - AuthzForce](https://authzforce-ce-fiware.readthedocs.io/en/latest/)
+1. [IoT Broker - AERON](https://fiware-iot-broker.readthedocs.io/en/master/)
+1. [Proactive Technology Online - Proton](https://proactive-technology-online.readthedocs.io/en/latest/index.html)
+1. [GIS Data Provider - GeoServer](https://gisdataprovider.readthedocs.io/en/latest/index.html)
 
 ## Prerequisites
 A computer or smart-device with a web browser and access to the Internet.
