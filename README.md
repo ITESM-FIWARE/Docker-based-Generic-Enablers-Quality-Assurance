@@ -19,6 +19,8 @@ The Generic Enablers integrated into the DockerQA service are:
 1. [Proactive Technology Online - Proton](https://proactive-technology-online.readthedocs.io/en/latest/index.html)
 1. [GIS Data Provider - GeoServer](https://gisdataprovider.readthedocs.io/en/latest/index.html)
 
+A complete list of FIWARE Generic Enablers can be consulted at the [official FIWARE Catalogue web page](https://catalogue-server.fiware.org/) and at the [FIWARE Catalogue documentation page](https://www.fiware.org/developers/catalogue/).
+
 ## Prerequisites
 A computer or smart-device with a web browser and access to the Internet.
 
