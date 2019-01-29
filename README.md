@@ -46,9 +46,9 @@ This section describes the step-by-step procedure to test one Generic Enabler in
 ![3](https://user-images.githubusercontent.com/39604832/51412807-7fec0600-1b32-11e9-81dd-4880507c1548.PNG)
 1. The test process of the Generic Enabler may take several minutes
 ![4](https://user-images.githubusercontent.com/39604832/51412808-80849c80-1b32-11e9-925b-aa818cc9b33f.PNG)
-1. Once the test process finish, a report of the test, in JSON format, is deployed in a new window
+1. Once the test process are finished, a report of the test in JSON format is deployed in a new window
 ![5](https://user-images.githubusercontent.com/39604832/51412809-80849c80-1b32-11e9-805a-ab82a804e98f.PNG)
-1. If the user presses the blue button at the top of the page, in the report window, the same report is displayed in a "pretty" presentation
+1. If the user presses the "User" button at the top of the page, in the report window, the same report is displayed in a "certificate" format
 ![6](https://user-images.githubusercontent.com/39604832/51412810-80849c80-1b32-11e9-9bd4-03870fa26a5d.PNG)
 1. Both reports can be downloaded by pressing the green button at the right-top side of the page
 ![7](https://user-images.githubusercontent.com/39604832/51412811-80849c80-1b32-11e9-84a5-48416515504e.PNG)
@@ -64,10 +64,10 @@ This section describes the step-by-step procedure to test two or more Generic En
 1. The test processes of the Generic Enablers may take several minutes
 ![10](https://user-images.githubusercontent.com/39604832/51412815-811d3300-1b32-11e9-9570-9e29a22c4087.PNG)
 ![11](https://user-images.githubusercontent.com/39604832/51412816-811d3300-1b32-11e9-803d-528864406130.PNG)
-1. Once the test processes finish, a report of each test, in JSON format, is deployed in a new window. The navigation through diverse reports is available via the "hands" buttons
+1. Once the test processes are finished, a report of each test in JSON format is deployed in a new window. The navigation through diverse reports is available via the "hands" buttons
 ![12](https://user-images.githubusercontent.com/39604832/51412817-811d3300-1b32-11e9-8fb6-fc9f79e6eb9a.PNG)
 ![13](https://user-images.githubusercontent.com/39604832/51412818-811d3300-1b32-11e9-8a46-551c4fccff6a.PNG)
-1. If the user presses the blue button at the top of the page, in the report window, the same report is displayed in a "pretty" presentation
+1. If the user presses the "User" button at the top of the page, in the report window, the same report is displayed in a "certificate" format
 1. Both reports can be downloaded by pressing the green button at the right-top side of the page
 
 ### Test all Generic Enablers
@@ -79,8 +79,8 @@ This section describes the step-by-step procedure to test all Generic Enablers i
 ![15](https://user-images.githubusercontent.com/39604832/51412821-811d3300-1b32-11e9-8908-8a5a4ac6afd3.PNG)
 ![16](https://user-images.githubusercontent.com/39604832/51412822-811d3300-1b32-11e9-9634-be1a54e7f59e.PNG)
 1. The test processes of all Generic Enablers may take several minutes
-1. Once the test processes finish, a report of each test, in JSON format, is deployed in a new window
-1. If the user presses the blue button at the top of the page, in the report window, the same report is displayed in a "pretty" presentation
+1. Once the test processes are finished, a report of each test in JSON format is deployed in a new window. The navigation through diverse reports is available via the "hands" buttons
+1. If the user presses the "User" button at the top of the page, in the report window, the same report is displayed in a "certificate" format
 1. Both reports can be downloaded by pressing the green button at the right-top side of the page
 
 ### Visualize the general reports of all Generic Enablers
