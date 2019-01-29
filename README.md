@@ -29,6 +29,13 @@ Access the service via the [DockerQA official website](http://148.241.3.246:3800
 ![1](https://user-images.githubusercontent.com/39604832/51412805-7fec0600-1b32-11e9-9acb-5176dbb94b65.PNG)
 
 ## A walkthrough
+The main functionalities concentrated into the DockerQA service are:
+1. [Test one Generic Enabler](https://github.com/ITESM-FIWARE/Docker-based-Generic-Enablers-Quality-Assurance#test-one-generic-enabler)
+1. [Test two or more Generic Enablers](https://github.com/ITESM-FIWARE/Docker-based-Generic-Enablers-Quality-Assurance#test-two-or-more-generic-enablers)
+1. [Test all Generic Enablers](https://github.com/ITESM-FIWARE/Docker-based-Generic-Enablers-Quality-Assurance#test-all-generic-enablers)
+1. [Visualize the general reports of all Generic Enablers](https://github.com/ITESM-FIWARE/Docker-based-Generic-Enablers-Quality-Assurance#visualize-the-general-reports-of-all-generic-enablers)
+1. [Visualize specifics reports of a selected Generic Enabler](https://github.com/ITESM-FIWARE/Docker-based-Generic-Enablers-Quality-Assurance#visualize-specifics-reports-of-a-selected-generic-enabler)
+
 ### Test one Generic Enabler
 This section describes the step-by-step procedure to test one Generic Enabler integrated into the DockerQA service.
 
