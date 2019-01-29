@@ -46,7 +46,7 @@ This section describes the step-by-step procedure to test one Generic Enabler in
 ![3](https://user-images.githubusercontent.com/39604832/51412807-7fec0600-1b32-11e9-81dd-4880507c1548.PNG)
 1. The test process of the Generic Enabler may take several minutes
 ![4](https://user-images.githubusercontent.com/39604832/51412808-80849c80-1b32-11e9-925b-aa818cc9b33f.PNG)
-1. Once the test process are finished, a report of the test in JSON format is deployed in a new window
+1. Once the test process is finished, a report of the test in JSON format is deployed in a new window
 ![5](https://user-images.githubusercontent.com/39604832/51412809-80849c80-1b32-11e9-805a-ab82a804e98f.PNG)
 1. If the user presses the "User" button at the top of the page, in the report window, the same report is displayed in a "certificate" format
 ![6](https://user-images.githubusercontent.com/39604832/51412810-80849c80-1b32-11e9-9bd4-03870fa26a5d.PNG)
